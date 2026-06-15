@@ -11,7 +11,7 @@ The main objective is to identify unprofitable transport routes and optimize cli
 
 ## 📂 Data Sources
 The data architecture is hybrid, combining:
-* **CSV Files:** Transactional data (loads.csv, trips.csv, fuel_purchases.csv)[cite: 3].
+* **CSV Files:** Transactional data (loads.csv, trips.csv, fuel_purchases.csv).
 * **SQL Database (MySQL):** Dimensional data imported via a local server (customers, drivers, routes, trucks).
 
 *Base Source: Synthetic Logistics Operations Database, [https://www.kaggle.com/datasets/yogape/logistics-operations-database]*
