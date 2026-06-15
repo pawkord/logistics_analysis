@@ -1,0 +1,13 @@
+date = CALENDARAUTO(12)
+--
+day_name = FORMAT('date'[date], "DDD")
+--
+day_no = DAY('date'[date])
+--
+month_name = FORMAT('date'[Date], "MMM")
+--
+month_no = MONTH('date'[Date])
+--
+week_no = WEEKNUM('date'[date])
+--
+year = YEAR('date'[date])

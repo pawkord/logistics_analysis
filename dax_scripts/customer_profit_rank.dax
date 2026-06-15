@@ -1,0 +1,6 @@
+customer_profit_rank = 
+IF(
+    HASONEVALUE(customers[customer_name]),
+    RANKX(ALL(customers[customer_name]), [total_profit], , DESC, Dense),
+    BLANK()
+)

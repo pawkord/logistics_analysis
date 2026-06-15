@@ -1,0 +1,8 @@
+profit_per_mile = 
+DIVIDE(
+    [total_profit],
+    SUM(
+        trips[actual_distance_miles]
+    ),
+    0
+)

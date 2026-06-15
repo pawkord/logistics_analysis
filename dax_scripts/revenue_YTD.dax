@@ -1,0 +1,5 @@
+revenue_YTD = 
+CALCULATE(
+    [total_revenue],
+DATESYTD('date'[date])
+)

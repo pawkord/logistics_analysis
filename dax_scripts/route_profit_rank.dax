@@ -1,0 +1,12 @@
+route_profit_rank = 
+IF(
+    HASONEVALUE(routes[route_id]),
+    RANKX(
+        ALL(routes), 
+        CALCULATE([total_profit]), 
+        , 
+        DESC, 
+        Dense
+    ),
+    BLANK()
+)

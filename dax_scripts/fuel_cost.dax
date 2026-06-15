@@ -1,0 +1,2 @@
+fuel_cost = 
+SUM(fuel_purchases[total_cost])

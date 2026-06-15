@@ -1,0 +1,11 @@
+share_of_total_profit = 
+DIVIDE(
+    [total_profit],
+    CALCULATE(
+        [total_profit],
+        ALL(
+            customers
+        )
+    ),
+    0
+)

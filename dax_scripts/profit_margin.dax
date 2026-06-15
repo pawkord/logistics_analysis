@@ -1,0 +1,6 @@
+profit_margin = 
+DIVIDE(
+    [total_profit],
+    [total_revenue],
+    0
+)
