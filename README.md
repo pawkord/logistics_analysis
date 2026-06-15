@@ -58,6 +58,13 @@ IF(
     BLANK()
 )
 ```
+## 🖥️ Interactive Dashboard & User Experience
+The project features a comprehensive management dashboard designed for intuitive, one-glance data exploration
+**Key functionalities include:**
+* **Visual Storytelling:** A profitability map and efficiency matrix allow stakeholders to instantly identify underperforming routes and monitor the $Profit/Mile KPI.
+* **Drill-Through Capability:** Users can right-click on specific routes within the top performers bar chart or efficiency matrix to seamlessly navigate to a detailed "Route Details" page. This interactive feature allows managers to break down operational metrics (fuel costs, gallons used, total distance) for granular, root-cause analysis.
+* **Bookmarks & Buttons:** A navigation panel is implemented in the top left corner of the Management Panel, allowing seamless transitions between the main dashboard and the Client Analysis view.
+
 ## 💡 Key Business Insights
 * Route profitability: Identified negative profits on short-haul routes.
 * Client diversification: The client portfolio is highly diversifiedm ensuring financial stability and reducing reliance on key contracts.
