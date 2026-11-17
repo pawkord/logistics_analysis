@@ -1,7 +1,7 @@
 efficiency_status = 
 SWITCH(
     TRUE(),
-    [profit_per_mile]<1.0, "Niska wydajność",
-    [profit_per_mile]<2.0, "Średnia wydajność",
-    "Wysoka wydajność"
+    [profit_per_mile]<1.0, "Low Efficiency",
+    [profit_per_mile]<2.0, "Mid Efficiency",
+    "High Efficiency"
 )
